@@ -1,5 +1,5 @@
 # Arrays
----
+
 An array is a collection of items that holds information of a desired type. You can not "mix" data types, an integer array may only hold integer values, a char array may only hold character values, and so on and so forth.
  
 Any declared array must allocate a certain ammount of space in memory. This translates to specifying the maximum number of elements an array should contain.
