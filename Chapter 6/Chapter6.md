@@ -1,4 +1,4 @@
-## Arrays
+# Arrays
 ---
 An array is a collection of items that holds information of a desired type. You can not "mix" data types, an integer array may only hold integer values, a char array may only hold character values, and so on and so forth.
  
@@ -36,7 +36,7 @@ We can access array items dynamicly using a loop.
 
 We can use send arrays as parameters, but there's a catch. We've seen that when we sent a value as a parameter, we were actually sending a copy of that variable, as for arrays it works a little different. When sending an array as a parameter we are not sending a copy of such, we are sending a pointer to the arrays allocated memory.
 
-### Varargs
+## Varargs
 
 Varargs is a way of writing functions / methods that can "accept" arrays or any variable of the same type as the same parameter. The varargs argument must come last in the parameter list.
 
@@ -50,7 +50,7 @@ We can also create methods that return an array value.
   
 For each loops are used to access the entirety of an array and if we wish to read the elements in the array, but not modify them. While using for each loops we do not need array indexes to access elements of a desired array.
  
-### Multi-dimensional arrays / Two dimensional arrays
+## Multi-dimensional arrays / Two dimensional arrays
 
 ```java
     type[][] arrayName = new type[length][lengt]
@@ -62,7 +62,3 @@ For each loops are used to access the entirety of an array and if we wish to rea
                         }
 ```
 We will often need multi-dimensional arrays of different inner lengths. These type of arrays are called ragged arrays since they are partitioned" as how their inner lengths behave.
-
-## Exercises
----
-
