@@ -1,15 +1,3 @@
-/**
- * 
- * (a) Write a menu-driven program that provides three options:
-        • The first option allows the user to enter a temperature in Celsius and displays the corresponding Fahrenheit temperature;
-        • the second option allows the user to enter a temperature in Fahrenheit and displays the corresponding Celsius temperature;
-        • the third option allows the user to quit.
-    The formulae that you need are as follows, where C represents a Celsius temperature and F a Fahrenheit temperature:
-    
-    (b) Adapt the above program so that the user is not allowed to a temperature below absolute zero; this is −273.15C, or −459.67F.
- * 
- */
-
 import java.util.Scanner;
 
 public class chapter_5 {

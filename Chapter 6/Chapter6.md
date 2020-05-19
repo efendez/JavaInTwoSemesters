@@ -61,4 +61,4 @@ For each loops are used to access the entirety of an array and if we wish to rea
                             ...
                         }
 ```
-We will often need multi-dimensional arrays of different inner lengths. These type of arrays are called ragged arrays since they are partitioned" as how their inner lengths behave.
+We will often need multi-dimensional arrays of different inner lengths. These type of arrays are called ragged arrays since they are "partitioned" as how their inner lengths behave.
