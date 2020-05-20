@@ -4,6 +4,6 @@
 1. 
 2. 
 3. 
-4. 
-5. 
+4. Iteration
+5. Methods
 6. Arrays
