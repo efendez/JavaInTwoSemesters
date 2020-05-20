@@ -20,6 +20,7 @@ We can send information to a method and we can also receive information from it.
 
 ```java
     static void methodName(int firstParameter) {
+        // Do something with firstParameter
     }
 ```
 
@@ -33,3 +34,27 @@ Additionaly we have our parameter, which is specified by its type and its place-
 
 4. Parameter data-type: `int`
 5. Parameter place-holder name: `firstParameter`
+
+## Method Overloading
+
+Same operators can behave differently depending on what it is operating on thus, methods can be overloaded. We can overload a method by simply introducing a new instance of the same method but with different parameters:
+
+*Method 1*
+```java
+    static void methodNameTwo() {
+        // Do something when no parameters are passed into the method
+    }
+```
+
+*Method 2*
+```java
+    static void methodNameTwo(int firstParameter) {
+        // Do something when an int is passed into the method
+    }
+```
+*Method 3*
+```java
+    static void methodNameTwo(int firsParameter, char secondParameter) {
+        // Do something when an int and a char are passed into the method
+    }
+```
