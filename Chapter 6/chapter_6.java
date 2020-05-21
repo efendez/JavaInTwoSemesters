@@ -7,6 +7,7 @@ public class chapter_6 {
             arrayIn[i] = arrayIn[i] + 5;
         }
     }
+    
     static boolean allHavePassed(int[] arrayIn) {
         boolean boo = true;
         int i = 0;
@@ -19,14 +20,7 @@ public class chapter_6 {
         return boo;
     }
 
-    static void fillArray(int[] arrayIn) {
-        Scanner keyboard = new Scanner (System.in);
-        for (int i = 0; i < arrayIn.length; i++) {
-            System.out.print("enter value ");
-            arrayIn[i] = keyboard.nextInt();
-        }
-        keyboard.close();
-    }
+    /** Exercise #2 */
 
     static int sum (int[] arrayIn) {
         int total = 0;
@@ -84,6 +78,10 @@ public class chapter_6 {
         }
     }
 
+    /**
+     * Exercise #1
+     */
+
     static double[] enterTemps() {
         Scanner keyboard = new Scanner(System.in);
         double[] temperatureOut = new double[7];
@@ -94,6 +92,7 @@ public class chapter_6 {
         keyboard.close();
         return temperatureOut;
     }
+
     static void displayTemps(double[] temperatureIn) {
         System.out.println();
         System.out.println("***TEMPERATURES ENTERED***");
@@ -109,26 +108,6 @@ public class chapter_6 {
                 System.out.println("The " + i + " day was hot (" + temps[i] + ").");
             }
         }
-    }
-
-    public static void main(String[] args) {
-
-        double[] temperature ;
-        temperature = enterTemps();
-        displayTemps(temperature);
-        wasHot(temperature);
-
-        int[] myArr = new int[5];
-        fillArray(myArr);
-        greatAvg(myArr);
-
-        int[] myArr2 = new int[5];
-        fillArray(myArr2);
-        if (allHavePassed(myArr2)) {
-            increaseMarks(myArr2);
-        }
-        displayArray(myArr2);
-
     }
 
 }
