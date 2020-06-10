@@ -47,3 +47,11 @@ This simple change allows the code to run _at least_ one time. The code below sh
         // Execute this part of the code
     } while (condition == true);
 ```
+
+## Break
+
+The `break` statement can be used to terminate a loop before it reaches its natural end.
+
+## Continue
+
+The `continue` statement forces the loop to enter its next cycle before it completes runing all of the remaining code (below the statement).
