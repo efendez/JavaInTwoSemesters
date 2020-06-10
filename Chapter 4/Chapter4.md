@@ -18,6 +18,20 @@ The code bellow integrates the three components in a simple for loop with a numb
 
 ```java
     for (int i = 0; i <= X; i++) {
+        // Execute this part of the code
     }
 ```
 
+## The while Loop
+
+When we are not sure about the number of times we need to execute our code we need to use a _while_ loop.
+
+The while loop consists of a comparison that, when `true`, allows the code to run exactly once. If such comparisson evaluates to a `false` stetement, the loop won't allow another cycle.
+
+The code bellow exemplifies the structure of a while loop:
+
+```java
+    while (condition == true) {
+        // Execute this part of the code
+    }
+```
